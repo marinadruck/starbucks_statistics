@@ -47,7 +47,7 @@ def nav_tab():
 
 
 def get_data():  #[PY3] A function that returns a value and is called in at least two different places in your program
-    return pd.read_excel("starbucks_10000_sample.xlsx")
+    return pd.read_excel("/starbucks_10000_sample.xlsx")
 
 
 #I had to put these outside any function because they will be used in many different functions so its simpler
